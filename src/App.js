@@ -1,16 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from'./Header/Header';
 
 function App() {
   return (
+    <div className="container-fluid">
     <div className="App">
-      <header>
-        <div>
-          <h1>Please log in.</h1>
+      <div className="row">
+        <div className="col-12 main-header">
+          <Header/>
         </div>
-      </header>
+      </div>
+      <div className="row">
+        <div className="col-12">
 
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
