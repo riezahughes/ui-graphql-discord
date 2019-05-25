@@ -28,11 +28,14 @@
   color: white;
 }
 
-.top-page-bar{
-  background: black;
+#top-page-bar{
+  background: #292b2f;
   color: white;
   margin-bottom: 12px;
   padding-bottom: 5px;
+  overflow: hidden;
+  transition: 0.5s;
+  height: 32px;
 }
 
 .abs-cont{
@@ -40,7 +43,7 @@
   padding-bottom: 30px;
 }
 canvas{
-  opacity: 0.05;
+  /* opacity: 0.05; */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,6 +51,34 @@ canvas{
 body{
   background-color: #36393F;
   color: white;
+}
+footer{
+  text-align: center;
+}
+#root{
+  min-height: 92vh;
+}
+.discord-btn-yes{
+  background-color: #7289DA;
+  color: white;
+  border-radius: 1px;
+  border: none;
+  padding: 3px 10px;
+}
+
+.discord-btn-no{
+  background: transparent;
+  color: #f04747;
+  border-radius: 1px;
+  border: 1px solid #f04747;
+  padding: 3px 10px;
+}
+
+.content-container{
+  background-color: #2F3136;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 @keyframes App-logo-spin {
