@@ -16,12 +16,12 @@ constructor(props){
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-1">
                     </div>
-                    <div className="col-4 content-container">
+                    <div className="col-lg-4 col-md-10 content-container">
                           <p>Lorem ipsum mcfuck yourself.</p>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-1">
                     </div>
                 </div>
             </section>

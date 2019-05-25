@@ -41,6 +41,7 @@
 .abs-cont{
   position: relative;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 canvas{
   /* opacity: 0.05; */
@@ -87,5 +88,14 @@ footer{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media  (max-width: 768px){
+  section h1{
+    padding-top: 10px;
+    font-size: 4vw;
+  }
+  .hide-on-mobile{
+    display: none;
   }
 }
