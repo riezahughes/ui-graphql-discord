@@ -11,7 +11,7 @@ constructor(props){
 hideMe(e){
     document.getElementById("top-page-bar").style.opacity = 0;
     setTimeout(function(){
-        document.getElementById("top-page-bar").style.height = 30;
+        document.getElementById("top-page-bar").style.height = 0;
     }, 500)
 
 }
