@@ -35,7 +35,7 @@
   padding-bottom: 5px;
   overflow: hidden;
   transition: 0.5s;
-  height: 32px;
+  height: auto;
 }
 
 .abs-cont{
@@ -97,5 +97,16 @@ footer{
   }
   .hide-on-mobile{
     display: none;
+  }
+  .content-container{
+    font-size: 80%;
+  }
+  .privacy-text{
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  #top-page-bar{
+    height: 70px;
   }
 }
