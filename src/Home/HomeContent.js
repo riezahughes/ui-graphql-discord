@@ -19,7 +19,7 @@ constructor(props){
                 <div className="row">
                     <div className="col-lg-4 col-md-1">
                     </div>
-                    <div className="col-lg-4 col-md-10 content-container {{classChoice}}">
+                    <div className="col-lg-4 col-md-10 content-container discord-bkg-light">
                           <p>Register or Sign in</p>
                           <Link to="/dashboard"><button class="discord-btn-yes">Login</button></Link>
                     </div>
