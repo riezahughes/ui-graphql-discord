@@ -63,6 +63,7 @@ body{
 }
 footer{
   text-align: center;
+  padding-bottom: 20px;
 }
 #root{
   min-height: 92vh;
@@ -89,6 +90,7 @@ footer{
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 .user-top-buttons{
   margin-top: 10px;

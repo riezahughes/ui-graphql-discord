@@ -19,8 +19,11 @@ constructor(props){
                     <div className="col-12 col-sm-5 col-md-5 col-lg-4 user-top-buttons">
                         <ul className="list-inline text-center text-sm-right mb-0">
                             <li className="list-inline-item">
-                                <button class="discord-btn-yes"><i class="fas fa-plus-square"></i> <span className="hide-on-mobile">Create New Sound</span></button>
+                                <button class="discord-btn-yes"><i class="fas fa-plus-square"></i> Create New Sound</button>
                             </li>                            
+                            <li className="list-inline-item">
+                                <button class="discord-btn-yes"><i class="fas fa-cog"></i> Settings</button>
+                            </li>
                         </ul>
                     </div>
                     <div className=" d-none d-sm-block col-sm-1 col-md-1 col-lg-2">
@@ -32,10 +35,16 @@ constructor(props){
                     </div>
                     <div className="col-10 col-lg-8">
                         <div className="row content-container">
-                            <DashboardSound content="this is some test content"/>
-                            <DashboardSound content="this is some test content"/>
-                            <DashboardSound content="this is some test content"/>
-                            <DashboardSound content="this is some test content"/>
+                            <DashboardSound url="" title="Womp Womp"/>
+                            <DashboardSound title="Blep"/>
+                            <DashboardSound title="Retardinals"/>
+                            <DashboardSound title="UNITED STATES OF SMASSSSH"/>
+                            <DashboardSound title="GO BEYOND! PLUS ULTRA!"/>
+                            <DashboardSound url="" title="Womp Womp"/>
+                            <DashboardSound title="Blep"/>
+                            <DashboardSound title="Retardinals"/>
+                            <DashboardSound title="UNITED STATES OF SMASSSSH"/>
+                            <DashboardSound title="GO BEYOND! PLUS ULTRA!"/>
                         </div>
                     </div>
                     <div className="col-1 col-lg-2">
