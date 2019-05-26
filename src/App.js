@@ -5,6 +5,7 @@ import './App.css';
 import Header from'./Header/Header';
 import PrivacyPolicy from './Header/PrivacyPolicy'
 import HomeContent from './Home/HomeContent';
+import DashboardContent from './Dashboard/DashboardContent';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <div className="row">
             <div className="col-12">
                 <Route exact path="/" component={HomeContent}/>
+                <Route exact path="/dashboard" component={DashboardContent}/>
             </div>
           </div>
         </div>

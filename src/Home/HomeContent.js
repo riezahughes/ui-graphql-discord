@@ -19,7 +19,8 @@ constructor(props){
                     <div className="col-lg-4 col-md-1">
                     </div>
                     <div className="col-lg-4 col-md-10 content-container">
-                          <p>Lorem ipsum mcfuck yourself.</p>
+                          <p>Register or Sign in</p>
+                          <Link to="/dashboard"><button class="discord-btn-yes">Login</button></Link>
                     </div>
                     <div className="col-lg-4 col-md-1">
                     </div>

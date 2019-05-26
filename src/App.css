@@ -43,6 +43,14 @@
   padding-bottom: 30px;
   overflow: hidden;
 }
+
+.abs-cont a{
+  color: white;
+  text-decoration: none;
+}
+p{
+  padding: 10px;
+}
 canvas{
   /* opacity: 0.05; */
   position: absolute;
@@ -80,6 +88,15 @@ footer{
   border-radius: 5px;
   margin-top: 10px;
   padding-top: 10px;
+  padding-bottom: 20px;
+}
+.user-top-buttons{
+  margin-top: 10px;
+}
+.sb-btn-container{
+  border: 1px dashed white;
+  border-radius: 10px;
+  margin-bottom: 10px
 }
 
 @keyframes App-logo-spin {
