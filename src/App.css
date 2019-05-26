@@ -108,10 +108,20 @@ footer{
   min-height: 155px;
   padding-top: 15px;
 }
-.sb-btn-container button{
+.sb-btn-container .main-button{
   width: 90%;
-  padding: 10px;
   border-radius: 5px;
+}
+
+.sb-btn-container .settings-button{
+  color: white;
+}
+
+.sb-btn-container .delete-button, .sb-btn-container .settings-button{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .sb-btn-container .list-inline{
@@ -160,7 +170,32 @@ footer{
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 1000px){
+  h5{
+    font-size: 1.2vw;
+  }
+  .sb-btn-container .list-inline{
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 1400px){
+  .sb-btn-container{
+    min-height: 135px;
+  }
+}
+
+@media (max-width: 1200px){
+  .sb-btn-container{
+    min-height: 115px;
+  }
+}
+
 @media  (max-width: 768px){
+  .user-top-buttons{
+    font-size: 80%;
+  }
   section h1{
     padding-top: 10px;
     font-size: 4vw;

@@ -29,36 +29,32 @@ export default class DashboardSound extends Component{
             return(
                 <div className="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div className={classList}>
-                    <div className="row">                           
+                        <div className="row">                           
                             <div className="col-12">
-                                <button className="discord-btn-yes"><h5>{this.props.title}</h5></button><br/>
+                                <button className="discord-btn-yes main-button"><h5>{this.props.title}</h5></button><br/>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-1">
                             </div>
-                            <div className="col-6">
-                                <ul className="list-inline text-left">
-                                    <li className="list-inline-item">
-                                        <i className="fas fa-tag"></i> <span className="tag">{this.props.tag}</span>
-                                    </li>
-                                </ul>
-                            </div>                            
-                            <div className="col-4">
-                                <ul className="list-inline text-right">
-                                    <li className="list-inline-item">
-                                        <i className="fas fa-cog"></i>
-                                    </li>
-                                    <li className="list-inline-item">
-                                        <i className="fas fa-trash-alt discord-btn-no"></i>
-                                    </li>                                            
-                                </ul>
+                            <div className="col-10">
+                                    <ul className="list-inline float-left">
+                                        <li className="list-inline-item">
+                                            <i className="fas fa-tag"></i> <span className="tag">{this.props.tag}</span>
+                                        </li>
+                                    </ul>
+                                    <ul className="list-inline float-right">
+                                        <li className="list-inline-item">
+                                            <button class="settings-button"><i className="fas fa-cog"></i></button>
+                                        </li>
+                                        <li className="list-inline-item">
+                                            <button class="delete-button"><i className="fas fa-trash-alt discord-btn-no"></i></button>
+                                        </li>                                            
+                                    </ul>
                             </div>
-
                             <div className="col-1">
                             </div>
                         </div>
-
                         <div className="row">
                             <div className="col-12">
                             <hr/>
