@@ -8,7 +8,7 @@ constructor(props){
 
     render(){
         return(
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div className="sb-btn-container">
                   <p>{this.props.content}</p>
                 </div>
