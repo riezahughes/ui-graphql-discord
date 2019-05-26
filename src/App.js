@@ -23,7 +23,7 @@ function App() {
           <div className="row">
             <div className="col-12">
                 <Route exact path="/" component={HomeContent}/>
-                <Route exact path="/dashboard" component={DashboardContent}/>
+                <Route path="/dashboard" component={DashboardContent}/>
             </div>
           </div>
         </div>
