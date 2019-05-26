@@ -35,8 +35,12 @@ constructor(props){
                     </div>
                     <div className="col-10 col-lg-8">
                         <div className="row content-container">
-                            <DashboardSound emptyBlock="false" url="" title="Womp Womp"/>
-                            <DashboardSound emptyBlock="true"/>
+                            <DashboardSound emptyBlock="true"/>                            
+                            <DashboardSound emptyBlock="false" url="" title="Womp Womp" pressed="12" tag="Funny" keybind="M"/>
+                            <DashboardSound emptyBlock="false" url="" title="Sloppyyyyy" pressed="287" tag="Dirty" keybind="N"/>
+                            <DashboardSound emptyBlock="false" url="" title="Ay Papi" pressed="0" tag="Pickles" keybind="O"/>
+                            <DashboardSound emptyBlock="false" url="" title="AvesUGHHH" pressed="567869" tag="Avesa" keybind="P"/>
+                            <DashboardSound emptyBlock="false" url="" title="Stop It Ron" pressed="69" tag="Harry Potter" keybind="SPACE"/>
                         </div>
                     </div>
                     <div className="col-1 col-lg-2">

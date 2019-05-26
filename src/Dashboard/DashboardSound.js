@@ -29,17 +29,45 @@ export default class DashboardSound extends Component{
             return(
                 <div className="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div className={classList}>
-                        <div class="row">
-                            <div class="col-12">
-                                <button class="discord-btn-yes"><h5>{this.props.title}</h5></button><br/>
+                    <div className="row">                           
+                            <div className="col-12">
+                                <button className="discord-btn-yes"><h5>{this.props.title}</h5></button><br/>
                             </div>
-                            <div class="col-12">
+                        </div>
+                        <div className="row">
+                            <div className="col-1">
+                            </div>
+                            <div className="col-6">
+                                <ul className="list-inline text-left">
+                                    <li className="list-inline-item">
+                                        <i className="fas fa-tag"></i> <span className="tag">{this.props.tag}</span>
+                                    </li>
+                                </ul>
+                            </div>                            
+                            <div className="col-4">
+                                <ul className="list-inline text-right">
+                                    <li className="list-inline-item">
+                                        <i className="fas fa-cog"></i>
+                                    </li>
+                                    <li className="list-inline-item">
+                                        <i className="fas fa-trash-alt discord-btn-no"></i>
+                                    </li>                                            
+                                </ul>
+                            </div>
+
+                            <div className="col-1">
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-12">
+                            <hr/>
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
                                         <i class="far fa-keyboard"></i>
                                     </li>
                                     <li className="list-inline-item">
-                                        <span>M</span>
+                                        <span className="keybind">{this.props.keybind}</span>
                                     </li>
                                     <li className="list-inline-item">
                                         |
@@ -48,8 +76,8 @@ export default class DashboardSound extends Component{
                                       <i class="fas fa-stopwatch"></i>
                                     </li>
                                     <li className="list-inline-item">
-                                       <v class="hide-on-mobile">Pressed: </v>12
-                                    </li>                                                              
+                                       Pressed: {this.props.pressed}
+                                    </li>                                        
                                 </ul>
                             </div>
                         </div>

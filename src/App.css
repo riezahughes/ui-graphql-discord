@@ -105,7 +105,7 @@ footer{
   border-radius: 10px;
   margin-bottom: 5px;
   margin-top: 5px;
-  min-height: 120px;
+  min-height: 155px;
   padding-top: 15px;
 }
 .sb-btn-container button{
@@ -116,9 +116,10 @@ footer{
 
 .sb-btn-container .list-inline{
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.sb-btn-container span{
+.sb-btn-container .keybind{
   color: black;
   background: white;
   border-radius: 5px;
@@ -126,9 +127,21 @@ footer{
   font-weight: bold;
   font-size: 80%;
 }
+.sb-btn-container hr{
+  margin-bottom: 0.2rem;
+  margin-top: 0;
+}
+
+.tag{
+  border: 1px dashed #555;
+  border-radius: 5px;
+  padding: 1px 5px;
+  font-size: 80%;
+}
 
 .emptyButton{
   font-size: 45px;
+  padding-top: 35px;
 }
 
 .emptyButton:hover{
