@@ -84,8 +84,13 @@ footer{
   padding: 3px 10px;
 }
 
-.content-container{
+.discord-bkg-light{
   background-color: #2F3136;
+  border: 0 !important;
+}
+
+.content-container{
+
   border-radius: 5px;
   margin-top: 10px;
   padding-top: 10px;

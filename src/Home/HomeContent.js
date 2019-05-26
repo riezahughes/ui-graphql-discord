@@ -8,6 +8,7 @@ constructor(props){
 }   
 
     render(){
+
         return(
             <section>
                 <div className="row">
@@ -18,7 +19,7 @@ constructor(props){
                 <div className="row">
                     <div className="col-lg-4 col-md-1">
                     </div>
-                    <div className="col-lg-4 col-md-10 content-container">
+                    <div className="col-lg-4 col-md-10 content-container {{classChoice}}">
                           <p>Register or Sign in</p>
                           <Link to="/dashboard"><button class="discord-btn-yes">Login</button></Link>
                     </div>
