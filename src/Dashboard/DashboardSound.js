@@ -19,7 +19,6 @@ export default class DashboardSound extends Component{
         return(
             <div className="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div className={classList}>
-                  <br/>
                   <h5>{this.props.title}</h5><br/>
                   <button></button><br/>
                   <small><i class="far fa-keyboard"></i></small><br/>
