@@ -105,8 +105,38 @@ footer{
   border-radius: 10px;
   margin-bottom: 5px;
   margin-top: 5px;
-  min-height: 300px;
-  padding-top: 20px;
+  min-height: 120px;
+  padding-top: 15px;
+}
+.sb-btn-container button{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sb-btn-container .list-inline{
+  margin-top: 10px;
+}
+
+.sb-btn-container span{
+  color: black;
+  background: white;
+  border-radius: 5px;
+  padding: 0px 5px;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.emptyButton{
+  font-size: 45px;
+}
+
+.emptyButton:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: #7289DA;
+  border: 0;
+  transition: 0.3s;
 }
 
 @keyframes App-logo-spin {

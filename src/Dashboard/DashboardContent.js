@@ -36,7 +36,7 @@ constructor(props){
                     <div className="col-10 col-lg-8">
                         <div className="row content-container">
                             <DashboardSound emptyBlock="false" url="" title="Womp Womp"/>
-                            <DashboardSound emptyBlock="true" title="Blep"/>
+                            <DashboardSound emptyBlock="true"/>
                         </div>
                     </div>
                     <div className="col-1 col-lg-2">
