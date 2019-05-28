@@ -76,6 +76,18 @@ footer{
   padding: 3px 10px;
 }
 
+.discord-btn-maybe{
+  background-color: #2F3136;
+  color: white;
+  border-radius: 1px;
+  border: none;
+  padding: 3px 10px; 
+}
+
+.discord-btn-maybe:hover{
+  background-color: #7289DA; 
+}
+
 .discord-btn-no{
   background: transparent;
   color: #f04747;

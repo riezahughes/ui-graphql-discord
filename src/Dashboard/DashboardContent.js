@@ -24,16 +24,16 @@ constructor(props){
                     <div className="col-12 col-sm-12 col-md-12 col-lg-5 user-top-buttons">
                         <ul className="list-inline text-center text-lg-right mb-0">
                             <li className="list-inline-item">
-                                <Link to="/dashboard/new"><button class="discord-btn-yes"><i class="fas fa-plus-square"></i> New Sound</button></Link>
+                                <Link to="/dashboard/new"><button class="discord-btn-maybe"><i class="fas fa-plus-square"></i> New Sound</button></Link>
                             </li>        
                             <li className="list-inline-item">
-                                <Link to="/dashboard/filter"><button class="discord-btn-yes"><i class="fas fa-list"></i> Filter</button></Link>
+                                <Link to="/dashboard/filter"><button class="discord-btn-maybe"><i class="fas fa-list"></i> Filter</button></Link>
                             </li>
                             <li className="list-inline-item">
-                                <Link to="/dashboard/settings"><button class="discord-btn-yes"><i class="fas fa-cog"></i> Bot</button></Link>
+                                <Link to="/dashboard/settings"><button class="discord-btn-maybe"><i class="fas fa-cog"></i> Bot</button></Link>
                             </li>                            
                             <li className="list-inline-item">
-                                <Link to="/dashboard/account"><button class="discord-btn-yes"><i class="fas fa-user"></i> Account</button></Link>
+                                <Link to="/dashboard/account"><button class="discord-btn-maybe"><i class="fas fa-user"></i> Account</button></Link>
                             </li>                                                                    
                         </ul>
                     </div>
