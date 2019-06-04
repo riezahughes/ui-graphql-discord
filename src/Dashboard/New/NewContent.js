@@ -57,7 +57,7 @@ enterHotkey(e){
                             <label for="newname">Title:</label>
                             <input className="form-control" type="text" value={this.state.name} onChange={this.enterText} id="newname" name="newname"/>
                         </div>
-                        <div className="form-group col-4">
+                        <div className="form-group col-3">
                             <label for="tagChoice">Tag:</label>
                             <select className="form-control" name="tagChoice" id="tagChoice" onChange={this.enterTag}>
                                 <option>HarryPotter</option>
@@ -65,16 +65,17 @@ enterHotkey(e){
                                 <option>ffxiv</option>
                             </select>
                         </div>
-                        <div className="form-group col-4">
+                        <div className="form-group col-1">
                             <label for="hotkeyChoice">Hotkey:</label>
                             <input className="form-control" type="text" name="hotkeyChoice" id="hotkeyChoice" onChange={this.enterHotkey} value={this.state.hotkey} />
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div className="form-group col-6">
+                        <div className="form-group col-4">
+                        <label for="soundUpload">Sound:</label>
                             <input className="form-control" type="file" id="soundUpload" name="soundUpload" onChange={this.onUploadChoice}/>
                         </div>
-                        <div className="form-group col-6">
+                    </div>
+                    <div class="form-row">
+                        <div className="form-group col-12 text-right">
                             <button clasName="btn btn-fluid form-control w-100" type="button" id="submitNewSound" name="submitNewSound">Create</button>
                         </div>
                     </div>

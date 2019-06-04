@@ -177,6 +177,8 @@ footer{
 #createNew{
   background-color: white;
   color: black;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 @keyframes App-logo-spin {
